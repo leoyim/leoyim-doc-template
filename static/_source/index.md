@@ -2,9 +2,9 @@
 sidebar_position: 1
 ---
 
-# Welcome to My Wiki
+# Welcome to leoyim-doc-template
 
-This is a **static wiki site** powered by Docusaurus.
+This is a **static doc site** powered by Docusaurus.
 
 ## Getting Started
 
@@ -14,7 +14,7 @@ This is a **static wiki site** powered by Docusaurus.
 
 ## Template Documents
 
-New to Markdown or this wiki? Check out the template references:
+New to Markdown or this doc site? Check out the template references:
 
 - [📄 English Template](template) — complete syntax reference
 - [📄 中文模板](template-zh) — 完整语法参考

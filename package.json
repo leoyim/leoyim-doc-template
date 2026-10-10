@@ -1,5 +1,5 @@
 {
-  "name": "static-doc-template",
+  "name": "leoyim-doc-template",
   "version": "1.0.0",
   "private": true,
   "description": "A ready-to-use static doc site template built with Docusaurus. Zero-config setup, Markdown/MDX content, built-in source viewer.",

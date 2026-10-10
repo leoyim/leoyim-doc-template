@@ -1,13 +1,13 @@
 ---
 sidebar_position: 11
 title: 文档模板（中文）
-description: 展示本 wiki 所有受支持语法和功能的参考文档
+description: 展示本文档站点所有受支持语法和功能的参考文档
 mermaidTheme: forest
 ---
 
 # 文档模板
 
-本文档作为**完整参考**，展示本 wiki 支持的所有语法与功能。创建新页面时可将其作为模板使用。
+本文档作为**完整参考**，展示本文档站点支持的所有语法与功能。创建新页面时可将其作为模板使用。
 
 ---
 
@@ -92,7 +92,7 @@ mermaidTheme: forest
 
 ### 图片
 
-![占位图](https://via.placeholder.com/400x100/2563eb/ffffff?text=Wiki+图片)
+![占位图](https://via.placeholder.com/400x100/2563eb/ffffff?text=Doc+图片)
 
 | 语法 | 说明 |
 |------|------|
@@ -152,7 +152,7 @@ func main() {
 graph TD
     A[开始] --> B[撰写 Markdown]
     B --> C{构建？}
-    C -->|成功| D[部署 Wiki]
+    C -->|成功| D[部署 Doc]
     C -->|错误| E[修复并重试]
     E --> B
 ```
@@ -209,7 +209,7 @@ graph LR
 ---
 sidebar_position: 11
 title: 文档模板（中文）
-description: 展示本 wiki 所有受支持语法和功能的参考文档
+description: 展示本文档站点所有受支持语法和功能的参考文档
 ---
 ```
 
@@ -378,4 +378,4 @@ $$ x = {-b \pm \sqrt{b^2 - 4ac} \over 2a} $$
 
 滚动到本页底部，点击 **`</> Source`** 按钮，即可看到当前页面的原始 Markdown/MDX 源码——也就是你正在阅读的这个页面所对应的原始文件。
 
-在任何 wiki 页面使用该功能，可以从已有示例中学习。
+在任何文档页面使用该功能，可以从已有示例中学习。

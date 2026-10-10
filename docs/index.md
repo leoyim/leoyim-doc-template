@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Welcome to My Doc
+# Welcome to leoyim-doc-template
 
 This is a **static doc site** powered by Docusaurus.
 

@@ -1,4 +1,4 @@
-# 静态 Doc 模板
+# leoyim-doc-template
 
 基于 [Docusaurus 3](https://docusaurus.io/) 构建的开箱即用**静态 Doc / 知识库**模板。将你的 Markdown 文件放进去，一条命令即可获得一个快速、可搜索、可部署的站点。
 
@@ -218,7 +218,7 @@ mermaidTheme: forest
 
 ```ts
 const config: Config = {
-  title: 'My Doc',
+  title: 'leoyim-doc-template',
   tagline: '基于 Docusaurus 构建的静态 Doc 站点',
   url: 'https://your-doc.example.com',
   // ...

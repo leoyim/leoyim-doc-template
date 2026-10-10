@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Markdown Syntax
 
-A quick reference of Markdown features supported by this wiki.
+A quick reference of Markdown features supported by this doc site.
 
 ## Text Formatting
 

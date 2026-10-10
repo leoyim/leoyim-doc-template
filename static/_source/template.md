@@ -7,7 +7,7 @@ mermaidTheme: forest
 
 # Document Template
 
-This document serves as a **complete reference** for all syntax and features available in this wiki. Use it as a template when creating new pages.
+This document serves as a **complete reference** for all syntax and features available in this doc site. Use it as a template when creating new pages.
 
 ---
 
@@ -95,7 +95,7 @@ This document serves as a **complete reference** for all syntax and features ava
 
 ### Images
 
-![Placeholder](https://via.placeholder.com/400x100/2563eb/ffffff?text=Wiki+Image)
+![Placeholder](https://via.placeholder.com/400x100/2563eb/ffffff?text=Doc+Image)
 
 | Syntax  | Description |
 |---------|-------------|
@@ -155,7 +155,7 @@ func main() {
 graph TD
     A[Start] --> B[Write Markdown]
     B --> C{Build?}
-    C -->|Success| D[Deploy Wiki]
+    C -->|Success| D[Deploy Doc]
     C -->|Error| E[Fix & Rebuild]
     E --> B
 ```
@@ -380,4 +380,4 @@ Raw HTML is supported in both `.md` and `.mdx` files:
 
 At the bottom of this page, click the **`</> Source`** button to see the raw Markdown/MDX content of this page — the exact file that generates what you're reading now.
 
-Use that feature on any wiki page to learn from existing examples.
+Use that feature on any doc page to learn from existing examples.

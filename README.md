@@ -1,4 +1,4 @@
-# Static Doc Template
+# leoyim-doc-template
 
 A ready-to-use **static doc / knowledge base** template built with [Docusaurus 3](https://docusaurus.io/). Drop in your Markdown files, run one command, and get a fast, searchable, deployable site.
 
@@ -218,7 +218,7 @@ Edit `docusaurus.config.ts`:
 
 ```ts
 const config: Config = {
-  title: 'My Doc',
+  title: 'leoyim-doc-template',
   tagline: 'A static doc site built with Docusaurus',
   url: 'https://your-doc.example.com',
   // ...

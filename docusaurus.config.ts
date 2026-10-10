@@ -3,8 +3,31 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'My Doc',
-  themes: ['@docusaurus/theme-mermaid'],
+  title: 'leoyim-doc-template',
+  themes: [
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      {
+        indexDocs: true,
+        indexBlog: false,
+        indexPages: false,
+        docsRouteBasePath: '/docs',
+        docsDir: 'docs',
+        hashed: true,
+        language: ['en', 'zh'],
+        removeDefaultStopWordFilter: true,
+        highlightSearchTermsOnTargetPage: true,
+        searchResultLimits: 8,
+        searchResultContextMaxLength: 60,
+        explicitSearchResultPath: true,
+        searchBarShortcut: true,
+        searchBarShortcutHint: true,
+        searchBarPosition: 'right',
+        fuzzyMatchingDistance: 1,
+      } satisfies Record<string, unknown>,
+    ],
+    '@docusaurus/theme-mermaid',
+  ],
   markdown: {
     mermaid: true,
   },
@@ -61,7 +84,7 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'My Doc',
+      title: 'leoyim-doc-template',
       logo: {
         alt: 'Doc Logo',
         src: 'img/logo.svg',

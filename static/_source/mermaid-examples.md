@@ -144,7 +144,7 @@ gitGraph
 
 ```mermaid
 mindmap
-  root((Wiki))
+  root((Doc))
     功能
       全文搜索
       暗色模式
